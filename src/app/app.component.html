@@ -3,8 +3,8 @@
 </h1>
 <hr>
 <ul>
-  <li><a [routerLink]="['/']" [routerLinkActive]="'active'" [routerLinkActiveOptions] = "{exact: true}">Home</a></li>
-  <li><a [routerLink]="['/page2']" [routerLinkActive] = "'active'" [routerLinkActiveOptions] = "{exact: true}">Page2</a></li>
+  <li [routerLinkActive]= "'active'" [routerLinkActiveOptions] = "{exact: true}"><a [routerLink]="['/layout']">Home</a></li>
+  <li [routerLinkActive] = "'active'" [routerLinkActiveOptions] = "{exact: true}"><a [routerLink]="['/page2']">Page2</a></li>
   <!--Example2
   <li><a [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions] = "{exact: true}">Home</a></li>
   <li><a [routerLink]="['/page2']" routerLinkActive = "active" [routerLinkActiveOptions] = "{exact: true}">Page2</a></li>-->
